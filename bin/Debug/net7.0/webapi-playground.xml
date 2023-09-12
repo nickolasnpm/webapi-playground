@@ -1,0 +1,145 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>webapi-playground</name>
+    </assembly>
+    <members>
+        <member name="M:webapi_playground.Controllers.Authentication.AuthLoginController.LoginAsync(webapi_playground.Models.DTOs.Auth.Login)">
+            <summary>
+            Login Async
+            </summary>
+            <remarks>
+            Example:
+            Example Request:
+            
+                POST /update
+                { 
+                    "email": "ronaldo@gmail.com",
+                    "password": "1234"
+                }
+                
+            Example Response:
+            
+                ```json
+                { 
+                    "email": "ronaldo@gmail.com",
+                    "password": "1234"
+                }
+            </remarks>
+            <param name="login"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi_playground.Controllers.Authentication.AuthRegisterController.RegisterAsync(webapi_playground.Models.DTOs.Auth.AuthRequest)">
+            <summary>
+            Registr Async
+            </summary>
+            <remarks>
+            Example Request:
+            
+                POST /register
+                { 
+                    "fullname": "ronaldo",
+                    "email": "ronaldo@gmail.com",
+                    "roles": [ 
+                        {
+                            "title": "user"
+                        }
+                    ],
+                    "password": "1234"
+                }
+                
+            Example Response:
+            
+                ```json
+                { 
+                    "fullname": "ronaldo",
+                    "email": "ronaldo@gmail.com",
+                    "roles": [ 
+                        {
+                            "title": "user"
+                        }
+                    ],
+                    "password": "1234"
+                }
+            </remarks>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi_playground.Controllers.Authentication.AuthUpdateController.UpdateUserInfoAsync(System.Guid,webapi_playground.Models.DTOs.Auth.UpdateUserInfo)">
+            <summary>
+            Update User Info Async
+            </summary>
+            <remarks>
+            Example Request:
+            
+                POST /register
+                { 
+                    "fullname": "ronaldo",
+                    "email": "ronaldo@gmail.com",
+                    "password": "1234"
+                }
+                
+            Example Response:
+            
+                ```json
+                { 
+                    "fullname": "ronaldo",
+                    "email": "ronaldo@gmail.com",
+                    "password": "1234"
+                }
+            </remarks>
+            <param name="userId"></param>
+            <param name="update"></param>
+            <returns></returns>
+        </member>
+        <member name="M:webapi_playground.Controllers.Authentication.AuthUpdateController.UpdateRolesInfoAsync(System.Guid,webapi_playground.Models.DTOs.Auth.UpdateRolesInfo)">
+            <summary>
+            Update Roles Info Async
+            </summary>
+            <remarks>
+            Example Request:
+            
+                POST /register
+                { 
+                   "roles": [
+                        {
+                            "title": "string"
+                        },
+                        {
+                            "title": "string"
+                        }
+                    ]
+                }
+                
+            Example Response:
+            
+                ```json
+                { 
+                   "roles": [
+                        {
+                            "title": "string"
+                        },
+                        {
+                            "title": "string"
+                        }
+                    ]
+                }
+            </remarks>
+            <param name="userId"></param>
+            <param name="update"></param>
+            <returns></returns>
+        </member>
+        <member name="T:webapi_playground.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:webapi_playground.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:webapi_playground.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:webapi_playground.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
