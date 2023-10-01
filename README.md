@@ -1,4 +1,4 @@
-# webapi-playground
+# WebApi Playground
 
 ## Contains basic implementation of dotnet api
 
