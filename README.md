@@ -1,6 +1,6 @@
 # WebApi Playground
 
-## Contains basic implementation of dotnet api
+##Contains basic implementation of dotnet api
 
 * Web API Requests
 * Data Binding
@@ -8,4 +8,4 @@
 * Roles-Based Authorization
 
 
-## Architecture: All-in-One
+##Architecture: All-in-One
