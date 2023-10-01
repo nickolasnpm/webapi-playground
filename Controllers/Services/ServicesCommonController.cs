@@ -5,7 +5,7 @@ namespace webapi_playground.Controllers.Services;
 
 [ApiController]
 [Route("api/[controller]")]
-public class ServicesController : ControllerBase
+public class ServicesCommonController : ControllerBase
 {
     [HttpGet("datetime")]
     public IActionResult GetDateTime()
