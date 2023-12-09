@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IZadcQCDUIzXm4pqcZIAokNifTpKMSJYSkXDmwqFthNDuIN5HDetvia/AFY7BAOdVQPui24dOaE4Ed42ORnx3w==",
+  "dgSpecHash": "VdpCNoaidSJ0vQ73UDowbwyp2q4axB67pT+ucF0IkZD5TZ4SX1R7mefoL4u1tLomtFCLtGwqjHDDYFgm2zYkJQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\fmasm\\OneDrive\\Desktop\\Project\\webapi-playground\\webapi-playground.csproj",
+  "projectFilePath": "C:\\Users\\fmasm\\OneDrive\\Desktop\\Project\\webapi-playground\\webapi-playground.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fmasm\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\fmasm\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
