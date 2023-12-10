@@ -526,7 +526,7 @@ FodyWeavers.xsd
 
 ### DotnetCore ###
 # .NET Core build folders
-bin/*
+C:\Users\Hp\Desktop\Coding\Projects\Backend\webapi-playground\bin/*
 obj/*
 
 # Common node modules locations
